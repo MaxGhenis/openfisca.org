@@ -1,6 +1,6 @@
 {
   "name": "openfisca.org",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The public-facing website of OpenFisca for an international audience.",
   "dependencies": {
     "gh-pages": "^1.0.0"
