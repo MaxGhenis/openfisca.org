@@ -1,0 +1,7 @@
+#endorsements {
+	display: flex;
+}
+
+.endorsement {
+	width: 30%;
+}

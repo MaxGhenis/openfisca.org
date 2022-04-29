@@ -33,6 +33,21 @@ section {
 	flex-direction: column;
 }
 
+#endorsements {
+	display: flex;
+	justify-content: space-between;
+	background-color: #DDD;
+}
+
+.endorsement {
+	width: 30%;
+	font-size: 80%;
+}
+
+.endorsement img {
+	max-height: 5em;
+}
+
 figure {
 	margin: 0;
 }

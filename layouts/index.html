@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="icon" href="/img/favicon.ico">
 
-		<title>OpenFisca - {{ .Title}}</title>
+		<title>OpenFisca - {{ .Title }}</title>
 
 		<link rel="stylesheet" type="text/css" href="/css/header.css">
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -18,16 +18,35 @@
 			<div class="hero">
 				<img id="logo-large" src="/img/logo-openfisca.svg" alt="OpenFisca">
 
-				<h1>{{ .Title}}</h1>
+				<h1>{{ .Title }}</h1>
+				<h2>{{ $.Param "subtitle" }}</h2>
 
-				<a href="{{ "countries" | relLangURL }}" class="cta get-started">{{ $.Param "get_started" }}  🙌</a>
 			</div>
 		</header>
 
+		<section>
+			<div id="endorsements">
+			{{ range $.Param "endorsed" }}
+				<div class="endorsement">
+					<h3>“{{ .claim }}”</h3>
+					<a href="{{ .url }}"><img src="{{ .logo }}" alt="{{ .organisation }}"/></a>
+				</div>
+			{{ end }}
+			</div>
+		</section>
 
-		<h1 id="products">{{ $.Param "products" }}  🚀</h1>
+
+		<section id="countries">
+			<h2>{{ $.Param "packages_title" }}</h2>
+
+			{{ range $.Param "packages" }}
+				{{ . }} |
+			{{ end }}
+		</section>
 
 		<section class="row">
+			<h2>{{ $.Param "products" }}</h2>
+
 			<div class="left-col">
 				<h3>{{ $.Param "usecases.mes_aides.title" }}</h3>
 				<p>{{ $.Param "usecases.mes_aides.description" }}</p>

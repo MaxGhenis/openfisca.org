@@ -1,6 +1,40 @@
 ---
-title: "Write rules as code"
-get_started: Get started
+title: The most widely adopted free and open-source engine to write rules as code
+
+subtitle: OpenFisca enables modelling law and regulation for any jurisdiction in the world and making it accessible over APIs for developers, datascientists and economists.
+
+endorsed_title: OpenFisca is featured as
+endorsed:
+  cracking_the_code:
+    claim: Better policy outcomes and enhanced service delivery
+    organisation: OECD Observatory of Public Sector Innovation
+    logo: https://www.oecd.org//media/oecdorg/about/images/logooecd_en.png
+    url: https://oecd-opsi.org/publications/cracking-the-code/
+  joinup:
+    claim: Most innovative open-source software of 2019
+    organisation: European Commission Joinup
+    logo: https://upload.wikimedia.org/wikipedia/commons/8/84/European_Commission.svg
+    url: https://joinup.ec.europa.eu/collection/sharing-and-reuse-it-solutions/sharing-reuse-awards-2019-results#oss-inno
+  dpg:
+    claim: Digital public good nominee
+    organisation: Digital Public Goods Alliance
+    logo: https://digitalpublicgoods.net/wp-content/themes/dpga/images/logo.svg
+    url: https://digitalpublicgoods.net/registry/
+
+packages_title: OpenFisca enables communities of policy experts, developers, economists to collaborate in modelling the tax and benefit systems of any country.
+packages:
+  es: "Barcelona"
+  ci: "Côte d'Ivoire"
+  fr: "France"
+  it: "Italy"
+  ml: "Mali"
+  au: "New South Wales - Australia"
+  nz: "Aotearoa New Zealand"
+  sn: "Senegal"
+  tn: "Tunisia"
+  uk: "United Kingdom"
+  uy: "Uruguay"
+
 products: Powered by OpenFisca
 
 usecases:
